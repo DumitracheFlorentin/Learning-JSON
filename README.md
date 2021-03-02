@@ -6,7 +6,7 @@
 - JSON is a lightweight format for storing and transporting data
 - JSON is often used when data is sent from a server to a web page
 
-## JSON Syntax Rules
+## Syntax Rules
 
 - Data is in name/value pairs
 - Data is separated by commas
@@ -14,7 +14,7 @@
 - Square brackets hold arrays
 - File Type is ".json"
 
-## Data Types that can be used with JSON
+## Data Types
 
 - Numbers
 - Strings
