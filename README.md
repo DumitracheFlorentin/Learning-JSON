@@ -38,13 +38,13 @@
 }
 ```
 
-### Good Advice
+## Good Advice
 
 Easy to memorize the data types (think about BASONN) Boolean, Array, String, Object, Null, Number
 
 You could verify your JSON code on https://jsonlint.com/
 
-### How could we send data to the server
+## How could we send data to the server
 
 To send data to server correctly we will have to change the initial JSON text to a string.
 
