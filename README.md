@@ -14,7 +14,7 @@
 - Square brackets hold arrays
 - File Type is ".json"
 
-### Data Types that can be used with JSON
+## Data Types that can be used with JSON
 
 - Numbers
 - Strings
@@ -23,7 +23,7 @@
 - Objects
 - Null
 
-### JSON Example
+## JSON Example
 
 ```
 {
