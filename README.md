@@ -40,4 +40,6 @@
 
 ### Good Advice
 
+Easy to memorize the data type (think about BASONN) Boolean, Array, String, Object, Null, Number
+
 You could verify your JSON code on https://jsonlint.com/
