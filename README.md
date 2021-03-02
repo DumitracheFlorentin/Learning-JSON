@@ -23,8 +23,6 @@
 - Objects
 - Null
 
-- NO FUNCTIONS!
-
 ## JSON Example
 
 ```
@@ -45,3 +43,21 @@
 Easy to memorize the data types (think about BASONN) Boolean, Array, String, Object, Null, Number
 
 You could verify your JSON code on https://jsonlint.com/
+
+### How could we send data to the server
+
+To send data to server correctly we will have to change the initial JSON text to a string.
+
+To do that, we can use the following function.
+
+```
+var person = { name: "John", age: 31, city: "New York" };
+
+person = JSON.stringify(person);
+```
+
+Next, if we want to get data from the server we need to transform the string back to JSON text. (JSON.parse Method)
+
+```
+person = JSON.parse(person);
+```
