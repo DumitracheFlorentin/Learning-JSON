@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning JSON</title>
+</head>
+<body>
+
+    <ul id="list">
+
+    </ul>
+
+
+
+    <script>
+        // We could use Axios or AJAX but I wanted to do it wihtout any external libraries
+        
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                parseText = JSON.parse(xhttp.responseText);
+                //console.log(parseText);
+
+                // Display the data
+                var data = '';
+
+                parseText.forEach(value => {
+                    data = data + '<li>'+value.first_name+'</li>'
+                })
+
+                document.getElementById('list').innerHTML = data;
+            }
+        };
+        xhttp.open("GET", "people.json", true);
+        xhttp.send();
+    </script>
+</body>
+</html>
