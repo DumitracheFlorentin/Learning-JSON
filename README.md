@@ -64,5 +64,5 @@ person = JSON.parse(person);
 
 ## Credits
 
-All notes were taken from the Traversy Media's youtube channel. 
+All notes were taken from Traversy Media's youtube channel. 
 https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA
